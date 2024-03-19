@@ -3,3 +3,5 @@ numpy
 seaborn
 matplotlib
 inflection
+scikit-learn
+yellowbrick
