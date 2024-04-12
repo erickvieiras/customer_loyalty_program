@@ -2,6 +2,8 @@ pandas
 numpy
 seaborn
 matplotlib
+plotly
 inflection
 scikit-learn
 yellowbrick
+nbformat
