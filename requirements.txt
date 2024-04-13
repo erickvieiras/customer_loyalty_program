@@ -7,3 +7,4 @@ inflection
 scikit-learn
 yellowbrick
 nbformat
+umap-learn
