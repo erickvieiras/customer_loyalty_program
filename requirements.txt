@@ -8,3 +8,6 @@ scikit-learn
 yellowbrick
 nbformat
 umap-learn
+SQLAlchemy
+papermill
+s3fs
