@@ -8,16 +8,13 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.cluster import KMeans
 
-def clustering(data):
+def clustering(df1):
     # Carregando os modelos pickle
     with open('source/rf_model.pkl', 'rb') as model_file:
         rf_model = pickle.load(model_file)
 
     with open('source/kmeans_model.pkl', 'rb') as kmeans_file:
         kmeans = pickle.load(kmeans_file)
-
-    # Carregando os dados
-    df1 = dp.cleaning_data(data)
 
     # Selecionando as colunas
     df_space = df1.drop(columns=['customer_id'], axis=1).copy()
