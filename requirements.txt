@@ -11,3 +11,6 @@ umap-learn
 SQLAlchemy
 papermill
 s3fs
+streamlit
+folium
+streamlit_folium
