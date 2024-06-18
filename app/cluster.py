@@ -17,13 +17,10 @@ def clustering(data):
     with open('source/kmeans_model.pkl', 'rb') as kmeans_file:
         kmeans = pickle.load(kmeans_file)
 
-    # Carregando os dados
-    df1 = dp.cleaning_data(data)
-
     # Selecionando as colunas
-    df_space = df1.drop(columns=['customer_id'], axis=1).copy()
+    df_space = data.drop(columns=['customer_id'], axis=1).copy()
     cols_selected = ['customer_id', 'gross_revenue', 'recency_days', 'qtde_products', 'frequency', 'qtde_returns']
-    df_space = df1[cols_selected].copy()
+    df_space = data[cols_selected].copy()
 
     mms = MinMaxScaler()
 
@@ -62,7 +59,7 @@ def clustering(data):
     df10 = parameter_tuning.copy()
     df10['cluster'] = labels
 
-    df_profile = df1[cols_selected].copy()
+    df_profile = data[cols_selected].copy()
     df_profile['cluster'] = labels
 
     # Número de clientes por cluster

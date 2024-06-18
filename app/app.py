@@ -152,7 +152,8 @@ elif selected2 == 'Cluster Analysis':
     
     tab1, tab2, tab3 = st.tabs(['Cluster Data', 'Revenue Analysis and Purchase Volume', 'Frequency and Representativeness Analysis'])
     with tab1:
-        df_cluster = clst.clustering(df_raw)
+        df1 = dp.cleaning_data(df_raw)
+        df_cluster = clst.clustering(df1)
         st.dataframe(df_cluster.set_index('customer_id'), use_container_width = True)
 
     with tab2:
