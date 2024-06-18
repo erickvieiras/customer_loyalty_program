@@ -31,7 +31,7 @@ css = """
 inject_css(css)
 
 #load data=================================================================================================
-df_raw = pd.read_csv('dataset/data.csv', encoding='utf-8')
+df_raw = pd.read_csv('dataset/data.csv', encoding='latin-1')
 data = dp.cleaning_data(df_raw)
 df = dp.merge_data(data)
 
