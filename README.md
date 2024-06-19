@@ -72,7 +72,7 @@ A mediana do faturamento dos clientes "Diamond" é significativamente maior.
 - Baseando-se na receita bruta atual, a expectativa de faturamento para os próximos 3 meses é de aproximadamente $13,941,532.17, assumindo que o comportamento dos clientes do cluster se mantenha constante.
 
 ## Conclusão
-Este projeto de clusterização de clientes permitiu à ACME E-commerce identificar seus clientes mais valiosos e criar um programa de fidelidade eficaz, resultando em um aumento significativo no faturamento e na retenção de clientes. Com base nos insights obtidos, a equipe de marketing pode agora tomar ações estratégicas para maximizar o valor dos clientes e garantir o sucesso contínuo do programa "Diamond". O projeto realtime você pode acessar atraves do [Link](https://docs.google.com/spreadsheets/d/1R-ra8ysxxhgYXOhP0vZPfMHJSp8G0jdK2Slh8lE9xDI/edit#gid=0)
+Este projeto de clusterização de clientes permitiu à ACME E-commerce identificar seus clientes mais valiosos e criar um programa de fidelidade eficaz, resultando em um aumento significativo no faturamento e na retenção de clientes. Com base nos insights obtidos, a equipe de marketing pode agora tomar ações estratégicas para maximizar o valor dos clientes e garantir o sucesso contínuo do programa "Diamond". O projeto realtime você pode acessar atraves do [Link](https://customer-loyalty-program.streamlit.app/)
 
 
 # HIGH-VALUE CUSTOMER IDENTIFICATION PROGRAM (Clustering)
@@ -149,6 +149,6 @@ Here is the translation for the additional text:
 - Based on current gross revenue, the revenue expectation for the next 3 months is approximately $13,941,532.17, assuming that the behavior of the cluster customers remains constant.
 
 ## Conclusion
-This customer clustering project allowed ACME E-commerce to identify its most valuable customers and create an effective loyalty program, resulting in a significant increase in revenue and customer retention. Based on the insights gained, the marketing team can now take strategic actions to maximize customer value and ensure the continued success of the "Diamond" program. You can access the real-time project through this [Link](https://docs.google.com/spreadsheets/d/1R-ra8ysxxhgYXOhP0vZPfMHJSp8G0jdK2Slh8lE9xDI/edit#gid=0)
+This customer clustering project allowed ACME E-commerce to identify its most valuable customers and create an effective loyalty program, resulting in a significant increase in revenue and customer retention. Based on the insights gained, the marketing team can now take strategic actions to maximize customer value and ensure the continued success of the "Diamond" program. You can access the real-time project through this [Link](https://customer-loyalty-program.streamlit.app/)
 
 (Note: The link provided in the text is not clickable as per my capabilities.)
