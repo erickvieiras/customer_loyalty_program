@@ -6,7 +6,7 @@ A ACME E-commerce, uma empresa líder no mercado online, enfrentava um desafio c
 O programa "Diamond" foi concebido para recompensar os clientes de maior valor, proporcionando-lhes benefícios exclusivos e personalizando suas experiências de compra. Para identificar esses clientes, a ACME E-commerce precisava de uma análise detalhada e precisa dos dados de comportamento de compra dos clientes. A solução envolvia a aplicação de técnicas avançadas de clusterização de clientes para segmentar a base de clientes e selecionar aqueles com maior potencial de valor.
 
 ## Projeto
-Este projeto visa analisar uma base de dados de uma empresa de e-commerce para identificar e agrupar clientes com base em seu comportamento de compra, criando um score que ajuda a ordenar os clientes pela propensão de aquisição de produtos. O objetivo final é selecionar os clientes mais valiosos para integrar o programa de fidelização "Diamond".
+Este projeto visa analisar uma base de dados de uma empresa de e-commerce para identificar e agrupar clientes com base em seu comportamento de compra, recencia e frequencia. O objetivo final é selecionar os clientes mais valiosos para integrar o programa de fidelização "Diamond".
 
 ###  Etapas do Projeto
 Coleta e Limpeza de Dados:
@@ -25,6 +25,7 @@ Coleta e Limpeza de Dados:
 
 ### Desenvolvimento e Avaliação de Modelos:
 
+- Utilização de RFM para segmentação para agrupar os consumidores de acordo com o seu comportamento de compra com base nos dados de Recência, Frequência e Valor Gasto (Monetário).
 - Experimentação com diferentes abordagens de modelagem (PCA, UMAP, T-SNE, Tree-Based Embedding).
 - Avaliação de performance utilizando Silhouette Score.
 - Seleção do modelo K-Means para clusterização final.
@@ -32,7 +33,7 @@ Coleta e Limpeza de Dados:
 ### Implementação e Deploy:
 
 - Deploy do modelo utilizando Streamlit Cloud.
-Criação de dashboards para visualização dos dados e insights em tempo real.
+- Criação de dashboards para visualização dos dados e insights em tempo real.
 - Planejamento da Solução
 - Objetivo: Selecionar os clientes mais valiosos para integrar o programa de fidelização "Diamond".
 - Período de Análise: Novembro de 2015 a Dezembro de 2017.
@@ -41,12 +42,9 @@ Criação de dashboards para visualização dos dados e insights em tempo real.
 - Visual Studio Code
 - Python v3.12
 - Virtual Environment
-- Pandas e Numpy para manipulação de dados
-Matplotlib, Seaborn e Scikit-plot para visualização de dados
-- Pickle para serialização do modelo
-Scikit-Learn para machine learning
-- Streamlit para deploy do modelo
-Insights
+- Pandas e Numpy para manipulação de dados Matplotlib, Seaborn e Scikit-plot para visualização de dados
+- Pickle para serialização do modelo Scikit-Learn para machine learning
+- Streamlit para deploy do modelo Insights
 
 ## Insights
 
@@ -82,7 +80,7 @@ ACME E-commerce, a leading company in the online market, faced a common challeng
 The "Diamond" program was designed to reward the highest-value customers by providing them with exclusive benefits and personalizing their shopping experiences. To identify these customers, ACME E-commerce needed a detailed and accurate analysis of customer purchase behavior data. The solution involved applying advanced customer clustering techniques to segment the customer base and select those with the highest potential value.
 
 ## Project
-This project aims to analyze an e-commerce company's database to identify and group customers based on their purchasing behavior, creating a score that helps rank customers by their propensity to acquire products. The ultimate goal is to select the most valuable customers to integrate into the "Diamond" loyalty program.
+This project aims to analyze an e-commerce company's database to identify and group customers based on their purchasing behavior, recency and frequency. The ultimate goal is to select the most valuable customers to join the "Diamond" loyalty program.
 
 ### Project Stages
 Data Collection and Cleaning:
@@ -100,7 +98,7 @@ Data Collection and Cleaning:
 - Extraction of relevant insights.
 
 ### Development and Evaluation of Models:
-
+- Use of RFM for segmentation to group consumers according to their purchasing behavior based on Recency, Frequency and Amount Spent (Monetary) data.
 - Experimentation with different modeling approaches (PCA, UMAP, T-SNE, Tree-Based Embedding).
 - Performance evaluation using Silhouette Score.
 - Selection of the K-Means model for final clustering.
